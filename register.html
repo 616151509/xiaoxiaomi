@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" href="css/gh.css">
+</head>
+<body>
+	<div id="one">
+	    <img src="images/xiaomi3_03.jpg" alt="">
+	    <h2>注册小米账号</h2>
+	    <canvas class="canvas-star"></canvas>
+        <form class="login-form" onsubmit="return false">
+             <p>国家/地区</p>
+             <input class="inp" type="text" name="username"required="required" placeholder="用户名" />
+             <input class="inp" type="password" name="password" required="required" placeholder="密码"/>
+             <button class="but" type="submit" name="login-btn">立即注册</button>
+        </form> 
+        <i>注册帐号即表示您同意并愿意遵守小米 <a href="">用户协议</a>和<a href="">隐私政策</a> </i>
+	</div>
+
+	<script src="js/common/ajax.js"></script>
+    <script src="js/star.js"></script>
+    <script src="js/register.js"></script>
+    
+    <script>
+        //starBg.init('.canvas-star');
+        register.init('.login-form');
+    </script>
+</body>
+</html>

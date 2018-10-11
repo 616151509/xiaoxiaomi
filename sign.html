@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sign.css">
+	<link rel="stylesheet" href="css/gh.css">
+<body>
+    <!-- top -->
+	<div id="top">
+          <div class="top-con">
+              <img src="images/xiaomi3_03.jpg" alt="">
+              <div class="topc-r">
+	              <p>小米商城</p>
+	              <p>让每个人都能享受科技的乐趣</p>
+              </div>
+          </div>
+	</div>
+    <!-- btn -->
+      <div id="btn">
+           <div class="btn-con">
+                 <canvas class="canvas-star"></canvas>
+                 <form class="login-form" onsubmit="return false" autocomplete="off">
+                   <div class="btnc-t">
+                        <p>账号登录</p>
+                        <p>扫码登录</p>
+                   </div>
+                   <input class="inp" type="text" placeholder="邮箱/手机号码/小米ID" name="username" required="required">
+                   <input class="inp" type="password" placeholder="密码" name="password" required="required">
+                   <button class="but" type="submit" name="login-btn">登录</button>
+                   <div>
+                        <a href="">手机短信登录/注册</a>
+                        <a href="">立即注册|忘记密码?</a>
+                   </div>
+                 </form>
+           </div>
+      </div>
+    <script src="js/common/ajax.js"></script>
+    <script src="js/star.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        starBg.init('.canvas-star');
+        login.init('.login-form');
+    </script>
+</body>
+</html>

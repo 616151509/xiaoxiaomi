@@ -1,0 +1,19 @@
+@charset"utf-8";
+#top,#btn{width: 100%}
+.top-con,.btn-con{width: 1132px;margin: 0 auto;}
+/*top*/
+#top{height: 98px;}
+.top-con{height: 73px;padding-top: 25px;}
+.top-con img{width: 48px;height: 48px;float: left;margin-left: 1px;}
+.topc-r{float: left;width: 160px;text-align: center;margin-left:22px;}
+.topc-r p:first-child{font-size: 30px;color:#323232;line-height: 30px;}
+.topc-r p:last-child{font-size: 12px;color:#656565;line-height: 12px;margin-top: 7px;}
+/*btn*/
+#btn{height:588px;background: #ccc;}
+.btn-con{height: 588px;background: #bbb;position:relative;}
+.btn-con form{height: 524px;width: 379px;background:#fff;position: absolute;right: 0;top: 32px;padding-left: 31px;}
+.btnc-t{height: 92px;background: pink;font-size:23px;color: #f46507;}
+.btnc-t p:first-child{float: left;}
+.btnc-t p:last-child{float: right;}
+.btn-con form input{display: block;height: 48px;border: 1px solid #dfdfdf;width: 316px;padding-left: 14px;}
+.btn-con form .but{width: 332px;height: 50px;background: #ee5a06;font-size: 12px;color: #fff;border: 0;display: block;text-align: center;line-height: 50px;}

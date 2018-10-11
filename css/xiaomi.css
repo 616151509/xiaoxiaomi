@@ -1,0 +1,123 @@
+@charset"utf-8";
+#top,#nav,#main{width: 100%;}
+.top-con,.nav-con,.life,.home,.flash,.banner-box, .page{width: 1226px;margin: 0 auto;}
+.inp{width: 1226px;margin:0 auto;}
+/* top */
+#top{height: 120px;}
+.top-con{height: 120px;width: 100%;background: red}
+.top-con img{width: 100%;height: 120px;}
+/* nav */
+#nav{height: 40px;background: #333;}
+.nav-con{overflow: hidden;}
+.nav-con ul{width: 502px;height: 40px;background:#333;float: left;line-height: 40px;}
+.nav-con li{float: left;}
+.nav-con li a{padding-right: 8px;background: url(../images/xiaomi2_03.jpg)no-repeat center right;padding-left: 7px;}
+.nav-con li:first-child a{padding-left: 0;}
+.nav-con li:last-child a{padding-right: 0;background: #333;}
+.nav-con a{color: #b0b0b0;font-size: 12px;line-height: 12px;}
+.navc-c{width: 128px;height: 26px;float: left;padding-top: 14px;margin-left: 463px;}
+.navc-c a{background: #333;display: block;float: left;padding-right: 8px;background: url(../images/xiaomi2_03.jpg)no-repeat center right;padding-left: 7px;}
+.navc-c a:first-child{padding-left: 0;}
+.navc-c a:last-child{padding-right: 0;background: #333;}
+.navc-r{width: 120px;height: 26px;float:right;display: block;padding-top: 14px;text-align: center;}
+/* main */
+#main{background:pink;}
+.inp{height: 100px;}
+.inp .logo{width: 55px;height: 55px;margin-top: 23px;float: left;background: #ff6700;}
+.inp .logo i{background:url(../images/xiaomi5_03.png)no-repeat center;width: 55px;height: 55px;display: block;}
+.inp img:last-of-type{width: 145px;height: 32px;margin: 35px 0 0 24px;float: left;}
+.inp ul{float: left;width: 596px;height: 100px;background: pink;margin-left:20px;line-height: 100px;}
+.inp ul li{float: left;margin-right: 20px;}
+.inp ul li:last-child{margin-right: 0;}
+.inp ul a{font-size: 16px;color: #333;line-height:16px;}
+.inp form{float: right;width: 296px;height: 25px;background: #ccc;position: relative;top: 25px;}
+.inp form input:first-child{width: 223px;height: 48px;border: 1px solid #e0e0e0;position: absolute;top: 0;
+right: 51px;padding: 0 10px;font-size: 14px;line-height: 48px;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
+.inp form input:last-of-type{width:52px;height: 50px;position: absolute;right: 0;top: 0;z-index: 2;border: 1px solid #e0e0e0;
+font-size: 24px;line-height: 24px;background: #fff;color: #616161;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
+.inp .inp-word{position: absolute;top: 14px;right: 62px;z-index: 2;}
+.inp .inp-word a{margin-left: 5px;padding: 0 5px;font-size: 12px;background: #eee;color: #757575;transition: all .2s;}
+.inp-pud{height: 229px;background: blue;display: none;}
+/*life*/
+.life{height: 460px;position: relative;margin-bottom: 14px;}
+.life-left{width: 234px;height: 440px;background: #485b5b;padding-top: 20px;float: left;}
+.life-left li a{width: 204px;height: 42px;line-height: 42px;display: block;font-size: 12px;color: #fff;padding-left:30px;}
+.life-left li a:hover{background: orange;}
+.life-right{width:992px;float: right;height: 460px;position: relative;}
+.life-right .Broadcast a{width:992px;height: 460px;}
+.life-right .Broadcast a:first-child{background: url(../images/xiaomi5_03.jpg);background-size:992px 460px;}
+.life-right .Broadcast a:nth-of-type(2){background: url(../images/xiaomi6_03.jpg);background-size:992px 460px;}
+.life-right .Broadcast a:nth-of-type(3){background: url(../images/xiaomi7_03.jpg);background-size:992px 460px;}
+.life-right .Broadcast a:nth-of-type(4){background: url(../images/xiaomi8_03.jpg);background-size:992px 460px;}
+.life-right .Broadcast a:nth-of-type(5){background: url(../images/xiaomi9_03.jpg);background-size:992px 460px;}
+.life-righ .but{position: absolute;left: 0;}
+
+.life-right .sort{position: absolute;bottom: 25px;right: 35px;}
+/*.life-right .sort {width: 6px;height: 6px;background: rgba(0,0,0,0.4);margin-left: 10px;
+	border-radius: 10px;border: 2px solid #fff;border-color: rgba(255,255,255,0.3);}*/
+/*home*/
+.home{height: 170px;}
+.home-span1{padding-bottom: 6px;font-size: 12px;text-align: center;background: #5f5750;width: 234px;overflow: hidden;float: left;}
+.home-span1 li{position: relative;float: left;width: 70px;height: 82px;padding: 0 3px;}
+.home-span1 li:nth-of-type(2){background: url(../images/xiaomi11_03.jpg)no-repeat right center,url(../images/xiaomi11_03.jpg)no-repeat left center,url(../images/xiaomi10_03.jpg)no-repeat bottom center;}
+.home-span1 li:nth-of-type(1){background: url(../images/xiaomi10_03.jpg)no-repeat bottom center;}
+.home-span1 li:nth-of-type(3){background: url(../images/xiaomi10_03.jpg)no-repeat bottom center;}
+.home-span1 li:nth-of-type(5){background: url(../images/xiaomi11_03.jpg)no-repeat right center,url(../images/xiaomi11_03.jpg)no-repeat left center;}
+.home-span1 li a{display: block;padding-top: 18px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;
+color: rgba(255,255,255,0.7);transition: color .2s;}
+.home-span2,.home-span3,.home-span4{margin-left:14px;width: 316px;height: 170px;float: left;}
+.home-span2{background: url(../images/xiaomi12_03.jpg);background-size: 316px 170px; }
+.home-span3{background: url(../images/xiaomi13_03.jpg);background-size: 316px 170px; }
+.home-span4{background: url(../images/xiaomi13_03.jpg);background-size: 316px 170px; }
+/*flash*/
+.flash{height: 438px;;margin-top: 26px;}
+.flash-top{height: 58px;position: relative;}
+.flash-top h2{font-size: 22px;font-weight: 200;line-height: 58px;color: #333;}
+.flash-more{position: absolute;right: 0;top: 24px;width: 70px;height: 24px;}
+.flash-more .control{float: left;width: 33px;height:22px;border: 1px solid #e0e0e0;font-size: 16px;line-height: 24px;display: inline-block;
+text-align: center;}
+.flash-more .control-left{border-right:none;}
+
+.flash-btn{height: 340px;}
+.flashb-left{width: 234px;height: 280px;float: left;border-top: 1px solid #e53935;background: #f1eded;text-align: center;padding-top: 60px;}
+.flashb-left p{font-size: 21px;color: #ef3a3b;margin-bottom: 33px;}
+.flashb-left img{margin-left:100px;width: 34px;height: 53px;margin-bottom: 35px;}
+.flashb-left h3{color: rgba(0,0,0,0.54);font-size: 15px;margin-bottom: 33px;}
+.flashb-left ul{background: #fff;}
+.flashb-left ul li{width: 46px;height: 46px;background: #605751;color: #fff;font-size: 24px;line-height: 46px;float: left;display: inline-block;}
+.flashb-left ul li:nth-of-type(1){margin-left: 33px;}
+.flashb-left ul i{float: left;margin:0 6px 0 5px;line-height: 46px;}
+
+.flashb-right{height: 340px;overflow: hidden;}
+.flashb-right li{margin-left:14px;float: left;width: 234px;height: 340px;background: #fafafa;position: relative;text-align: center;}
+.flashb-right li:nth-of-type(1){border-top: 1px solid #e53935;}
+.flashb-right .box{width: 234px;height: 340px;position: absolute;left: 0;top: 0;display: block;}
+.flashb-right .center{background: url(../images/xiaomi14_03.jpg)no-repeat center;background-size: 160px 165px;;display: block;width: 234px;height: 165px;margin-top: 20px;}
+.flashb-right div{width: 64px;height: 20px;font-size: 12px;line-height: 20px;text-align: center;color: #fff;background: #e53935;margin: 0 auto;}
+.flashb-right h3{color: #212121;line-height: 14px;font-size: 14px;font-weight: 400;text-overflow: ellipsis;white-space: nowrap;
+overflow: hidden;background: #eee;margin-top: 22px;}
+.flashb-right p:nth-of-type(1){height: 18px;font-size: 12px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;color: #b0b0b0;margin-top: 11px;}
+.flashb-right p:nth-of-type(2){color: #ff6709;margin-top: 12px;font-size: 12px;line-height: 12px;}
+ /*banner-box  */
+.banner-box{height: 120px;display: block;margin-bottom:42px;}
+.banner-box img{height: 120px;width: 1226px;}
+ /*page*/
+.page{height: 1383px;background: #f5f5f5;padding-top: 40px;}  
+.phone{height: 654px;background: #eee;}
+.phone .top{height:40px;background: orange;}
+.phone .top h2{font-size: 22px;font-weight: 200;line-height: 22px;color: #333;float:left;}  
+.phone .top .right{float: right;width: 93px;height: 20px;line-height: 20px;position: relative;} 
+.phone .top .right i{display: inline-block;width:20px;height: 20px;border-radius: 20px;background: #b0b0b0;position: absolute;right: 0;}
+.phone .top .right a{font-size: 16px;line-height:16px;color: #424242;}
+.phone .btn img{width: 234px; height: 614px;}
+.phone .btn a:hover img{box-shadow: 0 15px 30px;rgba(0,0,0,0.1);transform: translate 3d(0,-2px,0);}
+
+
+
+
+
+
+
+
+
+
