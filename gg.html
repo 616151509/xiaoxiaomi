@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/gh.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>  
 </head>
 <body>
     <div class="superstar">
@@ -93,18 +95,85 @@
               <a href="">社区</a>
             </li>
           </ul>
-          <form action="">
-            <input type="text">
-            <input type="submit" value="">
-            <div class="inp-word">
-              <a href="">小米8</a>
-              <a href="">小米MIX 2s</a>
-            </div>
+
+          <div class="inp-seach">
+          <form class="search-form" action="">
+                  <input class="search-text" type="text">
+                  <input class="search-btn" type="submit" value="">
+                  <div class="search-word">
+                    <a href="">小米8</a>
+                    <a href="">小米MIX 2s</a>
+                  </div>
+                <div class="keyword-list">
+                  <ul class="result-list">
+                    <li data-key="小米6X">
+                      <a href="">
+                        小米6X
+                        <span class="result">约有6件</span>
+                      </a>
+                    </li>
+                    <li data-key="小米MIX 2S">
+                        <a href="">
+                          小米MIX 2S
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="黑鲨游戏手机">
+                        <a href="">
+                          黑鲨游戏手机
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="红米Note 5">
+                        <a href="">
+                          红米Note 5
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="红米5A">
+                        <a href="">
+                          红米5A
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="小米电视4C">
+                        <a href="">
+                          小米电视4C
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="电视32英寸">
+                        <a href="">
+                          电视32英寸
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="笔记本pro">
+                        <a href="">
+                          笔记本pro
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="空气净化器">
+                        <a href="">
+                          空气净化器
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                    <li data-key="净水器">
+                        <a href="">
+                          净水器
+                          <span class="result">约有6件</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
           </form>
         </div>
         <div class="inp-pud"></div>
     </div>
 </div>
+
 
 
 
@@ -231,5 +300,19 @@
                     </div>
                 
     </div>
+
+
+
+    <script>
+          // $("form:first").submit();
+          $(".search-text").blur(function(){$(".search-word").show("slow"),$(".keyword-list").hide("slow")});
+          $(document).ready(function(){
+            $(".search-text").focus(function(){$(".search-word").hide("slow"),$(".keyword-list").show("slow")});
+          });
+        //   $("input").keyup(function(){
+        //   $("input").css("background-color","#D6D6FF");
+        // });
+        
+    </script>
 </body>
 </html>

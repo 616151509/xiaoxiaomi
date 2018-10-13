@@ -33,22 +33,34 @@ html,body{width:100%; height:100%;}
 .navc-c a:last-child{padding-right: 0;background: #333;}
 .navc-r{width: 120px;height: 26px;float:right;display: block;padding-top: 14px;text-align: center;}
 /* main */
+
+
 .inp{height: 100px;}
 .inp .logo{width: 55px;height: 55px;margin-top: 23px;float: left;background: #ff6700;}
 .inp .logo i{background:url(../images/xiaomi5_03.png)no-repeat center;width: 55px;height: 55px;display: block;}
 .inp img:last-of-type{width: 145px;height: 32px;margin: 35px 0 0 24px;float: left;}
+
 .inp ul{float: left;width: 596px;height: 100px;margin-left:20px;line-height: 100px;}
 .inp ul li{float: left;margin-right: 20px;}
 .inp ul li:last-child{margin-right: 0;}
 .inp ul a{font-size: 16px;color: #333;line-height:16px;}
-.inp form{float: right;width: 296px;height: 25px;background: #ccc;position: relative;top: 25px;}
-.inp form input:first-child{width: 223px;height: 48px;border: 1px solid #e0e0e0;position: absolute;top: 0;
-right: 51px;padding: 0 10px;font-size: 14px;line-height: 48px;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
-.inp form input:last-of-type{width:52px;height: 50px;position: absolute;right: 0;top: 0;z-index: 2;border: 1px solid #e0e0e0;
-font-size: 24px;line-height: 24px;background: #fff;color: #616161;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
-.inp .inp-word{position: absolute;top: 14px;right: 62px;z-index: 2;}
-.inp .inp-word a{margin-left: 5px;padding: 0 5px;font-size: 12px;background: #eee;color: #757575;transition: all .2s;}
-.inp-pud{height: 229px;background: blue;display: none;}
+
+
+.inp-seach{float: right;width: 296px;margin-top: 25px;}
+.search-form{position: relative;width: 296px;height: 50px;}
+.search-text{position: absolute; top: 0; right: 51px;   width: 223px; height: 48px;padding: 0 10px; border: 1px solid #e0e0e0;font-size: 14px;line-height: 48px;}
+.search-btn{position: absolute; right: 0;top: 0; width: 52px; height: 50px; border: 1px solid #e0e0e0; font-size: 24px;line-height: 24px; background: #fff; color: #616161;}
+.search-word{position: absolute;top: 14px; right: 62px;text-align: right;}
+.search-word a{display: inline-block;margin-left: 5px; padding: 0 5px;font-size: 12px;background: #eee;color: #757575;}
+.search-word a:hover{background: #ff6700; }
+.keyword-list{display: none;}
+.keyword-list .result-list{width: 243px;margin: 0;height: 280px;}
+.keyword-list .result-list li{width: 243px;margin: 0;}
+.keyword-list .result-list li:hover{background: #ccc;opacity: 0.3;}
+.keyword-list{position: absolute; left: 0;top: 50px; _top: 51px;z-index: 20;width: 243px; border: 1px solid #ff6700; border-top-color: rgb(255, 103, 0); border-top-style: solid;border-top-width: 1px;border-top: 0; background: #fff;}
+.keyword-list .result-list a{position: relative;display: block;padding: 6px 15px;font-size: 12px;color: #424242;}
+.keyword-list .result-list .result{position: absolute; right: 15px;top: 6px;color: #b0b0b0;}
+
 
 /* finish */
 #finish{height: 272px;}
