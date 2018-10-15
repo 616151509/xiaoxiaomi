@@ -1,34 +1,19 @@
 @charset"utf-8";
-/* #top,#nav,#main, #page{width: 100%;}
+#top,#nav,#main, #page{width: 100%;}
 
 /*life*/
 .life{height: 460px;position: relative;margin-bottom: 14px;}
 .life-left{width: 234px;height: 440px;color: #fff;background: #333;background: rgba(0,0,0,0.6);padding-top: 20px;position: absolute;left: 0;top: 0;z-index: 2;}
 .life-left li a{width: 204px;height: 42px;line-height: 42px;display: block;font-size: 12px;color: #fff;padding-left:30px;}
 .life-left li a:hover{background:#ff6700;}
-.chirldren{display: none;}
+.chirldren{display:none;}
+.life-left .life-item:hover .chirldren{display: block;}
 .life-left .life-item .chirldren{width: 992px; position: absolute; left: 234px;top: 0; z-index: 24; height: 458px; border: 1px solid #e0e0e0;background: #fff;}
 .life-left .life-item .chirldren-list{float: left;height: 458px; margin: 0; padding: 2px 0;width: 248px;}
 .life-left .life-item .chirldren-list li{position: relative;float: left;width: 265px;height: 76px;}
 .life-left .life-item .chirldren-list li a{display: block;padding: 18px 20px;line-height: 40px;color: #333;}
 .life-left .life-item .chirldren-list li img{margin-right: 12px;vertical-align: middle;width: 40px;height: 40px;display: inline;}
 .life-left .life-item .chirldren-list li .text{line-height: 40px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -39,7 +24,7 @@
 
 .life-right .sort{position: absolute;bottom: 25px;right: 35px;}
 /*home*/
-.home{height: 170px;}
+.home{height: 156px;padding-top: 14px;}
 .home-span1{padding-bottom: 6px;font-size: 12px;text-align: center;background: #5f5750;width: 234px;overflow: hidden;float: left;}
 .home-span1 li{position: relative;float: left;width: 70px;height: 82px;padding: 0 3px;}
 .home-span1 li:nth-of-type(2){background: url(../images/xiaomi11_03.jpg)no-repeat right center,url(../images/xiaomi11_03.jpg)no-repeat left center,url(../images/xiaomi10_03.jpg)no-repeat bottom center;}
@@ -53,8 +38,8 @@ color: rgba(255,255,255,0.7);transition: color .2s;}
 .home-span3{background: url(../images/xiaomi13_03.jpg);background-size: 316px 170px; }
 .home-span4{background: url(../images/xiaomi13_03.jpg);background-size: 316px 170px; }
 /*flash*/
-.flash{height: 438px;;margin-top: 26px;}
-.flash-top{height: 58px;position: relative;}
+.flash{height: 438px;}
+.flash-top{height: 58px;position: relative;margin-top: 40px;}
 .flash-top h2{font-size: 22px;font-weight: 200;line-height: 58px;color: #333;}
 .flash-more{position: absolute;right: 0;top: 24px;width: 70px;height: 24px;}
 .flash-more .control{float:left;width: 33px;height:22px;border: 1px solid #e0e0e0;font-size: 16px;line-height: 24px;display: inline-block;
@@ -83,7 +68,7 @@ overflow: hidden;margin-top: 22px;}
 .flashb-right p:nth-of-type(1){height: 18px;font-size: 12px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;color: #b0b0b0;margin-top: 11px;}
 .flashb-right p:nth-of-type(2){color: #ff6709;margin-top: 12px;font-size: 12px;line-height: 12px;}
  /*banner-box  */
-.banner-box{height: 120px;display: block;margin-bottom:42px;}
+.banner-box{height: 120px;display: block;padding-bottom:42px;}
 .banner-box img{height: 120px;width: 1226px;}
  /*page*/
 #page{background: #f5f5f5;}
