@@ -1,5 +1,5 @@
 #site-head{width:100%;}
-.site-head{margin: 0 auto;width: 1226px;}
+.site-head,.shop-commnet,.shop-comment{margin: 0 auto;width: 1226px;}
 #site-head{border-bottom: 2px solid #ff6700;color: #b0b0b0;font-size: 12px;}
 .site-head{height: 100px;position: relative;}
 .head-logo{float: left;width: 93px;margin-top: 26px;}
@@ -13,7 +13,7 @@
 .topbar-info .set{color: #e0e0e0;float:left;margin:0;}
 .page-main{padding-top: 38px;padding-bottom: 38px;background: #f5f5f5;}
 .container{width: 1226px; margin-right: auto; margin-left: auto;}
-.cart-goods-list {background-color: #fff;}
+.cart-goods-list {background: #fff;}
 .cart-goods-list .list-head {height: 70px;line-height: 70px;padding-right: 26px;color: #424242;}
 .cart-goods-list .list-head .col {float: left;}
 .cart-goods-list .list-head .col-img { width: 120px;}
@@ -23,6 +23,31 @@
 .cart-goods-list .col-total {width: 120px; padding-right: 81px; text-align: right;}
 .cart-goods-list .col-action {width: 80px;text-align: center;}
 .cart-goods-list .item-box {padding: 15px 26px 15px 0;border-top: 1px solid #e0e0e0;}
+/* comment */
+
+.comment-title{position: relative;height: 111px; font-size: 30px; font-weight: 400; color: #757575;text-align: center;}
+ .comment-title span {
+        position: absolute;
+        bottom: 0;
+        height: 55px;
+        width: 1226px; 
+        text-align: center;
+        display: block;
+        border-top: 1px solid #e0e0e0;
+    }
+.comment-title p{padding:0 40px 0 40px;text-align: center;height: 30px;line-height: 30px;position: absolute;top: -15px;left: 405px;background: #f5f5f5;}
+.comment-ban{overflow: hidden;}
+.ban-items{width: 1226px;}
+.ban-items li{float: left;margin: 0 0 14px 14px;}
+.ban-items li:nth-of-type(1){margin: 0;}
+.ban-items li:nth-of-type(6){margin: 0;}
+
+
+
+
+
+
+
 
 
 

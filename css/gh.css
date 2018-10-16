@@ -33,8 +33,6 @@ html,body{width:100%; height:100%;}
 .navc-c a:last-child{padding-right: 0;background: #333;}
 .navc-r{width: 120px;height: 26px;float:right;display: block;padding-top: 14px;text-align: center;}
 /* main */
-
-
 .inp{height: 100px;}
 .inp .logo{width: 55px;height: 55px;margin-top: 23px;float: left;background: #ff6700;}
 .inp .logo i{background:url(../images/xiaomi5_03.png)no-repeat center;width: 55px;height: 55px;display: block;}
@@ -45,12 +43,12 @@ html,body{width:100%; height:100%;}
 .inp ul li:last-child{margin-right: 0;}
 .inp ul a{font-size: 16px;color: #333;line-height:16px;}
 
-
 .inp-seach{float: right;width: 296px;margin-top: 25px;}
 .search-form{position: relative;width: 296px;height: 50px;}
+
 .search-text{position: absolute; top: 0; right: 51px;   width: 223px; height: 48px;padding: 0 10px; border: 1px solid #e0e0e0;font-size: 14px;line-height: 48px;}
 .search-btn{position: absolute; right: 0;top: 0; width: 52px; height: 50px; border: 1px solid #e0e0e0; font-size: 24px;line-height: 24px; background: #fff; color: #616161;}
-.search-word{position: absolute;top: 14px; right: 62px;text-align: right;}
+.search-word{position: absolute;top: 14px; right: 62px;text-align: right;display: block;}
 .search-word a{display: inline-block;margin-left: 5px; padding: 0 5px;font-size: 12px;background: #eee;color: #757575;}
 .search-word a:hover{background: #ff6700; }
 .keyword-list{display: none;}
