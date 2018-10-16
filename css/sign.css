@@ -1,19 +1,31 @@
 @charset"utf-8";
-#top,#btn{width: 100%}
-.top-content,.btn-con{width: 1132px;margin: 0 auto;}
+#toplike,#btn,#footer{width: 100%}
+.top-content,.btn-con,.footer{width: 1132px;margin: 0 auto;}
 /*top*/
-#top{height: 98px;}
+#toplike{height: 98px;}
 .top-content{height: 73px;padding-top: 25px;}
 .top-content img{width: 48px;height: 48px;float: left;margin-left: 1px;}
 .topc-r{float: left;width: 160px;text-align: center;margin-left:22px;}
 .topc-r p:first-child{font-size: 30px;color:#323232;line-height: 30px;}
 .topc-r p:last-child{font-size: 12px;color:#656565;line-height: 12px;margin-top: 7px;}
 /*btn*/
-#btn{height:588px;background: #ccc;}
-.btn-con{height: 588px;background: #bbb;position:relative;}
-.btn-con form{height: 524px;width: 379px;background:#fff;position: absolute;right: 0;top: 32px;padding-left: 31px;}
-.btnc-t{height: 92px;background: pink;font-size:23px;color: #f46507;}
-.btnc-t p:first-child{float: left;}
-.btnc-t p:last-child{float: right;}
-.btn-con form input{display: block;height: 48px;border: 1px solid #dfdfdf;width: 316px;padding-left: 14px;}
-.btn-con form .but{width: 332px;height: 50px;background: #ee5a06;font-size: 12px;color: #fff;border: 0;display: block;text-align: center;line-height: 50px;}
+#btn{height:588px;background: url(../images/xiaomi9_03.jpg)no-repeat center center;background-size: 100% 100%;}
+.btn-con{height: 588px;position:relative;}
+.btn-con form{height: 524px;width: 379px;background:#fff;position: absolute;right: 0;top: 32px;}
+.btnc-t{font-size:23px;color: #f46507;padding: 27px 0 24px;text-align: center;}
+
+.btn-con form input{display: block;height: 48px;border: 1px solid #dfdfdf;width: 316px;padding-left: 14px;margin-top: 20px;}
+.btn-con form .but{margin-top: 30px;margin-left:23px;width: 332px;height: 50px;background: #ee5a06;font-size: 12px;color: #fff;border: 0;text-align: center;line-height: 50px;}
+.content{width: 100%;padding: 0 23px 0 23px;margin-top: 10px;}
+.content a:last-child{margin-left: 123px;}
+.content a{ color: #ef5b00;font-size: 12px;line-height: 12px;}
+/*footer*/
+#footer{padding-top: 100px;}
+.n-footer{height: 80px;width: 855px;}
+.clearfix{width: 855px;height: 20px;margin-left: 420px;}
+.select-list{width: 300px;}
+.select-list li{float: left;text-align: center;}
+.select-list li a{color: #333;font-size: 14px;line-height: 14px;margin:0 8px 0 8px;}
+.nf-intro{color: #9d9d9d;text-align: center;font-size: 12px;padding: 10px;}
+.nf-intro span img{width: 20px;height: 20px;display: inline;}
+.nf-intro span a{font-size: 12px;color: #9d9d9d;}

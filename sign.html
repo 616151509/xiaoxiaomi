@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/gh.css">
 <body>
     <!-- top -->
-	<div id="top">
+	<div id="toplike">
           <div class="top-content">
               <img src="images/xiaomi3_03.jpg" alt="">
               <div class="topc-r">
@@ -19,27 +19,52 @@
     <!-- btn -->
       <div id="btn">
            <div class="btn-con">
-                 <canvas class="canvas-star"></canvas>
                  <form class="login-form" onsubmit="return false" autocomplete="off">
                    <div class="btnc-t">
-                        <p>账号登录</p>
-                        <p>扫码登录</p>
+                        <span>账号登录</span>
+                         &nbsp; &nbsp;|&nbsp;&nbsp;
+                        <span>扫码登录</span>
                    </div>
                    <input class="inp" type="text" placeholder="邮箱/手机号码/小米ID" name="username" required="required">
                    <input class="inp" type="password" placeholder="密码" name="password" required="required">
                    <button class="but" type="submit" name="login-btn">登录</button>
-                   <div>
-                        <a href="">手机短信登录/注册</a>
-                        <a href="">立即注册|忘记密码?</a>
+                   <div class="content">
+                        <a href="#">手机短信登录/注册</a>
+                        <a href="#">立即注册|忘记密码?</a>
                    </div>
                  </form>
            </div>
       </div>
+      <div id="footer">
+        <div class="footer">
+       <div class="clearfix">
+            <ul class="select-list">
+                <li><a href="#">简体</a> | </li>
+                <li><a href="#">繁体</a> | </li>
+                <li><a href="#">English | </a></li>
+                <li><a href="#">常见问题 | </a></li>
+            </ul>
+            
+        </div>
+       <p class="nf-intro">
+               <span>
+                    小米公司版权所有-京ICP备10046444-
+                     <a href="#">
+                          <span>
+                                  <img src="images/xiaomi32_03.png" alt="">
+                          </span>
+                          京公网安备11010802020134号
+                     </a>
+               </span>
+         </p>
+         </div>
+      </div>
+
+
     <script src="js/common/ajax.js"></script>
     <script src="js/star.js"></script>
     <script src="js/login.js"></script>
     <script>
-        starBg.init('.canvas-star');
         login.init('.login-form');
     </script>
 </body>

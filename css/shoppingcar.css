@@ -1,0 +1,59 @@
+#site-head{width:100%;}
+.site-head{margin: 0 auto;width: 1226px;}
+#site-head{border-bottom: 2px solid #ff6700;color: #b0b0b0;font-size: 12px;}
+.site-head{height: 100px;position: relative;}
+.head-logo{float: left;width: 93px;margin-top: 26px;}
+.head-logo .logo{width: 48px;height: 49px;background:#ff6700;display: block; }
+.head-title{height: 48px;float: left; margin-top: 26px;}
+.head-title h2{float: left; line-height: 48px; margin-bottom: 0;font-size: 28px;color: #424242;font-weight: normal;}
+.head-title p{float: left; height: 20px;line-height: 20px;margin-top: 20px;margin-left: 15px;color: #757575;}
+.topbar-info{margin-top: 30px;line-height: 40px;float: right;height: 40px;}
+.topbar-info .link{padding: 0 5px;float: left;}
+.topbar-info a{color: #757575;}
+.topbar-info .set{color: #e0e0e0;float:left;margin:0;}
+.page-main{padding-top: 38px;padding-bottom: 38px;background: #f5f5f5;}
+.container{width: 1226px; margin-right: auto; margin-left: auto;}
+.cart-goods-list {background-color: #fff;}
+.cart-goods-list .list-head {height: 70px;line-height: 70px;padding-right: 26px;color: #424242;}
+.cart-goods-list .list-head .col {float: left;}
+.cart-goods-list .list-head .col-img { width: 120px;}
+.cart-goods-list .list-head .col { float: left;}.cart-goods-list .list-head .col-name { width: 380px;}
+.cart-goods-list .col-price {width: 75px; padding-right: 84px; text-align: right; color: #424242;}
+.cart-goods-list .col-num { width: 150px; text-align: center; color: #424242;}
+.cart-goods-list .col-total {width: 120px; padding-right: 81px; text-align: right;}
+.cart-goods-list .col-action {width: 80px;text-align: center;}
+.cart-goods-list .item-box {padding: 15px 26px 15px 0;border-top: 1px solid #e0e0e0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
